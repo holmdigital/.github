@@ -9,9 +9,9 @@ We develop the **[a11y-hd](https://github.com/holmdigital/a11y-hd)** regulatory-
 
 ## 🚀 Projects & Work
 - 🛠️ **[a11y-hd](https://github.com/holmdigital/a11y-hd)**: A monorepo for regulatory accessibility testing.
-  - `@holmdigital/engine`: Test engine with Virtual DOM & Shadow DOM support.
-  - `@holmdigital/standards`: Machine-readable regulatory database.
-  - `@holmdigital/components`: Accessible React component library.
+  - [`@holmdigital/engine`](https://www.npmjs.com/package/@holmdigital/engine): Test engine with Virtual DOM & Shadow DOM support.
+  - [`@holmdigital/standards`](https://www.npmjs.com/package/@holmdigital/standards): Machine-readable regulatory database.
+  - [`@holmdigital/components`](https://www.npmjs.com/package/@holmdigital/components): Accessible React component library.
 - 🌐 Main Website: [holmdigital.se](https://holmdigital.se)
 - 📚 Documentation Wiki: [wiki.holmdigital.se](https://wiki.holmdigital.se)
 
