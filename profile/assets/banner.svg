@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="banner-title banner-desc">
+  <title id="banner-title">Holm Digital AB</title>
+  <desc id="banner-desc">Accessibility testing in the language of the law: WCAG 2.2, EN 301 549, EAA and 17 jurisdictions.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#0c2a43"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.35" r="0.55">
+      <stop offset="0" stop-color="#0ea5e9" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#0ea5e9" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#7dd3fc" fill-opacity="0.16"/>
+    </pattern>
+    <linearGradient id="dotfade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0.45" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="1"/>
+    </linearGradient>
+    <mask id="dotmask"><rect width="1200" height="360" fill="url(#dotfade)"/></mask>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="0.8" stop-color="#38bdf8" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#7dd3fc" stop-opacity="0.95"/>
+    </linearGradient>
+    <clipPath id="cardclip"><rect width="1200" height="360" rx="24"/></clipPath>
+    <clipPath id="screenclip"><rect x="782" y="98" width="356" height="216"/></clipPath>
+  </defs>
+  <style>
+    text { font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    .beam { opacity: 0; animation: scan 2.2s ease-in-out 0.4s 1 both; }
+    .check, .score { transform-box: fill-box; transform-origin: center; animation: pop 0.4s ease-out backwards; }
+    .c1 { animation-delay: 0.9s; }
+    .c2 { animation-delay: 1.3s; }
+    .c3 { animation-delay: 1.8s; }
+    .c4 { animation-delay: 2.2s; }
+    .score { animation-delay: 2.7s; }
+    @keyframes scan {
+      0% { transform: translateY(0); opacity: 1; }
+      85% { opacity: 1; }
+      100% { transform: translateY(230px); opacity: 0; }
+    }
+    @keyframes pop { from { opacity: 0; transform: scale(0.4); } }
+    @media (prefers-reduced-motion: reduce) {
+      .beam, .check, .score { animation: none; }
+    }
+  </style>
+
+  <g clip-path="url(#cardclip)">
+    <rect width="1200" height="360" fill="url(#bg)"/>
+    <rect width="1200" height="360" fill="url(#glow)"/>
+    <rect width="1200" height="360" fill="url(#dots)" mask="url(#dotmask)"/>
+  </g>
+  <rect x="1" y="1" width="1198" height="358" rx="23" fill="none" stroke="#1e3a5f" stroke-width="2"/>
+
+  <!-- Logo: ring with HD -->
+  <g fill="none" stroke="#f8fafc" stroke-width="9">
+    <circle cx="130" cy="150" r="58"/>
+    <path d="M104 118 V182 M104 150 H128 M128 118 V182 M128 118 H134 A30 32 0 0 1 134 182 H128"/>
+  </g>
+  <text x="214" y="140" font-size="50" font-weight="800" letter-spacing="4" fill="#f8fafc">HOLM</text>
+  <text x="214" y="194" font-size="50" font-weight="800" letter-spacing="4" fill="#f8fafc">DIGITAL</text>
+
+  <text x="72" y="262" font-size="25" fill="#cbd5e1">Accessibility testing in the language of the law.</text>
+
+  <g font-size="17" font-weight="600" fill="#e0f2fe">
+    <rect x="72" y="290" width="104" height="36" rx="18" fill="#0369a1" fill-opacity="0.25" stroke="#38bdf8" stroke-opacity="0.6"/>
+    <text x="124" y="314" text-anchor="middle">WCAG 2.2</text>
+    <rect x="188" y="290" width="122" height="36" rx="18" fill="#0369a1" fill-opacity="0.25" stroke="#38bdf8" stroke-opacity="0.6"/>
+    <text x="249" y="314" text-anchor="middle">EN 301 549</text>
+    <rect x="322" y="290" width="64" height="36" rx="18" fill="#0369a1" fill-opacity="0.25" stroke="#38bdf8" stroke-opacity="0.6"/>
+    <text x="354" y="314" text-anchor="middle">EAA</text>
+    <rect x="398" y="290" width="172" height="36" rx="18" fill="#0369a1" fill-opacity="0.25" stroke="#38bdf8" stroke-opacity="0.6"/>
+    <text x="484" y="314" text-anchor="middle">17 jurisdictions</text>
+  </g>
+
+  <!-- Browser window being scanned (decorative) -->
+  <g>
+    <rect x="770" y="56" width="380" height="270" rx="14" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+    <line x1="771" y1="94" x2="1149" y2="94" stroke="#334155" stroke-width="2"/>
+    <circle cx="794" cy="75" r="5" fill="#475569"/>
+    <circle cx="812" cy="75" r="5" fill="#475569"/>
+    <circle cx="830" cy="75" r="5" fill="#475569"/>
+    <rect x="852" y="66" width="280" height="18" rx="9" fill="#1e293b"/>
+    <text x="866" y="80" font-size="12" fill="#b8c4d4">holmdigital.se</text>
+
+    <rect x="796" y="114" width="190" height="16" rx="4" fill="#e2e8f0" fill-opacity="0.9"/>
+    <rect x="796" y="144" width="262" height="8" rx="4" fill="#475569"/>
+    <rect x="796" y="160" width="230" height="8" rx="4" fill="#475569"/>
+    <rect x="796" y="176" width="246" height="8" rx="4" fill="#475569"/>
+
+    <rect x="796" y="198" width="112" height="72" rx="6" fill="#1e293b" stroke="#334155"/>
+    <path d="M808 258 L834 228 L852 246 L866 234 L896 258 Z" fill="#334155"/>
+    <circle cx="884" cy="216" r="7" fill="#334155"/>
+    <rect x="922" y="202" width="150" height="8" rx="4" fill="#475569"/>
+    <rect x="922" y="218" width="122" height="8" rx="4" fill="#475569"/>
+    <rect x="922" y="234" width="140" height="8" rx="4" fill="#475569"/>
+    <rect x="922" y="252" width="92" height="22" rx="6" fill="#0369a1"/>
+
+    <g clip-path="url(#screenclip)">
+      <rect class="beam" x="782" y="60" width="356" height="44" fill="url(#beam)"/>
+    </g>
+
+    <g class="check c1"><circle cx="1110" cy="122" r="10" fill="#16a34a"/><path d="M1105 122 l3.5 3.5 l6.5 -7" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <g class="check c2"><circle cx="1110" cy="164" r="10" fill="#16a34a"/><path d="M1105 164 l3.5 3.5 l6.5 -7" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <g class="check c3"><circle cx="1110" cy="222" r="10" fill="#16a34a"/><path d="M1105 222 l3.5 3.5 l6.5 -7" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <g class="check c4"><circle cx="1110" cy="263" r="10" fill="#16a34a"/><path d="M1105 263 l3.5 3.5 l6.5 -7" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></g>
+
+    <g class="score">
+      <rect x="996" y="286" width="136" height="28" rx="14" fill="#052e16" stroke="#22c55e" stroke-width="1.5"/>
+      <text x="1064" y="305" font-size="14" font-weight="700" fill="#4ade80" text-anchor="middle">100/100 PASS</text>
+    </g>
+  </g>
+</svg>
