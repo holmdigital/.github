@@ -1,0 +1,37 @@
+name: Update npm download count
+
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: npm-downloads
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+
+      - name: Count downloads and redraw the counter
+        run: node scripts/update-downloads.mjs
+
+      - name: Commit if the count changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile/README.md profile/assets/downloads.svg
+          if git diff --cached --quiet; then
+            echo "No change."
+            exit 0
+          fi
+          git commit -m "chore: update npm download count"
+          git push
