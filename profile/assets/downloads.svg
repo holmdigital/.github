@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-labelledby="dl-title dl-desc">
-  <title id="dl-title">29,914 downloads on npm</title>
-  <desc id="dl-desc">29,914 downloads on npm across all three a11y-hd packages since December 2025: engine 13,264, standards 9,731 and components 6,919. Updated 2026-10-28.</desc>
+  <title id="dl-title">29,926 downloads on npm</title>
+  <desc id="dl-desc">29,926 downloads on npm across all three a11y-hd packages since December 2025: engine 13,269, standards 9,734 and components 6,923. Updated 2026-10-28.</desc>
   <defs>
     <linearGradient id="dbg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0b1220"/>
@@ -23,23 +23,23 @@
   <rect x="1" y="1" width="1198" height="218" rx="23" fill="none" stroke="#1e3a5f" stroke-width="2"/>
 
   <text x="48" y="62" font-size="14" font-weight="700" letter-spacing="2.5" fill="#7dd3fc">DOWNLOADS ON NPM</text>
-  <text x="48" y="132" font-size="64" font-weight="800" fill="#f8fafc">29,914</text>
+  <text x="48" y="132" font-size="64" font-weight="800" fill="#f8fafc">29,926</text>
   <text x="48" y="166" font-size="18" fill="#b8c4d4">All three a11y-hd packages, since December 2025</text>
   <text x="48" y="196" font-size="14" fill="#b8c4d4">Updated 2026-10-28</text>
 
   <rect x="560" y="44" width="184" height="132" rx="14" fill="#0f172a" stroke="#1e3a5f" stroke-width="1.5"/>
   <text x="580" y="80" class="mono" font-size="16" font-weight="700" fill="#7dd3fc">engine</text>
-  <text x="580" y="124" font-size="32" font-weight="700" fill="#f8fafc">13,264</text>
+  <text x="580" y="124" font-size="32" font-weight="700" fill="#f8fafc">13,269</text>
   <rect x="580" y="144" width="144" height="8" rx="4" fill="#1e293b"/>
   <rect x="580" y="144" width="144" height="8" rx="4" fill="#38bdf8"/>
   <rect x="764" y="44" width="184" height="132" rx="14" fill="#0f172a" stroke="#1e3a5f" stroke-width="1.5"/>
   <text x="784" y="80" class="mono" font-size="16" font-weight="700" fill="#7dd3fc">standards</text>
-  <text x="784" y="124" font-size="32" font-weight="700" fill="#f8fafc">9,731</text>
+  <text x="784" y="124" font-size="32" font-weight="700" fill="#f8fafc">9,734</text>
   <rect x="784" y="144" width="144" height="8" rx="4" fill="#1e293b"/>
   <rect x="784" y="144" width="106" height="8" rx="4" fill="#38bdf8"/>
   <rect x="968" y="44" width="184" height="132" rx="14" fill="#0f172a" stroke="#1e3a5f" stroke-width="1.5"/>
   <text x="988" y="80" class="mono" font-size="16" font-weight="700" fill="#7dd3fc">components</text>
-  <text x="988" y="124" font-size="32" font-weight="700" fill="#f8fafc">6,919</text>
+  <text x="988" y="124" font-size="32" font-weight="700" fill="#f8fafc">6,923</text>
   <rect x="988" y="144" width="144" height="8" rx="4" fill="#1e293b"/>
   <rect x="988" y="144" width="75" height="8" rx="4" fill="#38bdf8"/>
 </svg>
