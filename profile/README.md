@@ -12,7 +12,7 @@ We are a professional team dedicated to web accessibility and regulatory complia
 
 <!-- npm-downloads:start -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/holmdigital/.github/main/profile/assets/downloads.svg?v=2026-11-24" width="100%" alt="33,714 downloads on npm across all three a11y-hd packages since December 2025: engine 14,777, standards 11,056 and components 7,881. Updated 2026-11-24.">
+  <img src="https://raw.githubusercontent.com/holmdigital/.github/main/profile/assets/downloads.svg?v=2026-11-24" width="100%" alt="33,804 downloads on npm across all three a11y-hd packages since December 2025: engine 14,858, standards 11,056 and components 7,890. Updated 2026-11-24.">
 </p>
 <!-- npm-downloads:end -->
 
